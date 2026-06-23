@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Memory Hunt</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+
+  <!-- HOME SCREEN -->
+  <section id="screen-home" class="screen active">
+    <h1 id="game-title">Memory Hunt</h1>
+    <p class="subtitle">Find every matching pair as fast as you can!</p>
+
+    <div class="stat-row">
+      <div class="stat">
+        <span class="num" id="stat-pairs">0/0</span>
+        <span class="label">Pairs found</span>
+      </div>
+      <div class="stat">
+        <span class="num" id="stat-time">00:00</span>
+        <span class="label">Time</span>
+      </div>
+    </div>
+
+    <div class="progress-track"><div class="progress-fill" id="progress-fill" style="width:0%"></div></div>
+
+    <div id="banner-area"></div>
+
+    <button class="btn-primary" id="btn-scan">📷 Scan a QR code</button>
+    <button class="btn-secondary hidden" id="btn-reset">Reset game</button>
+
+    <div class="manual-entry">
+      <label>No camera handy? Type a station code to simulate a scan (for testing):</label>
+      <div class="row">
+        <input type="text" id="manual-station" placeholder="e.g. S01" maxlength="8">
+        <button class="btn-secondary" id="btn-manual-go" style="margin:0;">Go</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCANNER SCREEN -->
+  <section id="screen-scan" class="screen">
+    <h1>Scan a code</h1>
+    <p class="scan-hint">Point your camera at a QR code hidden around the area.</p>
+    <video id="scanner-video" muted playsinline></video>
+    <p class="scan-hint" id="scan-status">Looking for a code…</p>
+    <button class="btn-ghost" id="btn-cancel-scan">Cancel</button>
+  </section>
+
+  <!-- REVEAL SCREEN -->
+  <section id="screen-reveal" class="screen">
+    <div class="reveal-center">
+      <div class="reveal-card" id="reveal-card">
+        <div class="reveal-status" id="reveal-slot-label">Picture 1</div>
+        <img id="reveal-photo" class="reveal-photo hidden" alt="">
+        <div class="reveal-label" id="reveal-label">???</div>
+        <div class="reveal-result" id="reveal-result"></div>
+        <div class="hide-timer" id="hide-timer">Hides in 10s</div>
+      </div>
+    </div>
+    <button class="btn-primary" id="btn-reveal-continue">Continue</button>
+  </section>
+
+  <!-- END SCREEN -->
+  <section id="screen-end" class="screen">
+    <div class="reveal-center">
+      <h1>🎉 All pairs found!</h1>
+      <div class="reveal-card">
+        <div class="reveal-status">Final time</div>
+        <div class="reveal-label" id="final-time">00:00</div>
+      </div>
+    </div>
+    <button class="btn-primary" id="btn-play-again">Play again</button>
+  </section>
+
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

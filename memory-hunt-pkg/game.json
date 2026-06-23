@@ -1,0 +1,14 @@
+{
+  "gameId": "demo1",
+  "title": "Backyard Memory Hunt (Demo)",
+  "revealSeconds": 10,
+  "pairs": [
+    { "pairId": "p1", "label": "Lion",      "stations": ["S01", "S02"] },
+    { "pairId": "p2", "label": "Elephant",  "stations": ["S03", "S04"] },
+    { "pairId": "p3", "label": "Giraffe",   "stations": ["S05", "S06"] },
+    { "pairId": "p4", "label": "Penguin",   "stations": ["S07", "S08"] },
+    { "pairId": "p5", "label": "Zebra",     "stations": ["S09", "S10"] },
+    { "pairId": "p6", "label": "Kangaroo",  "stations": ["S11", "S12"] },
+    { "pairId": "p7", "label": "Octopus",   "stations": ["S13", "S14"] }
+  ]
+}

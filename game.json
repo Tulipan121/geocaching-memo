@@ -1,0 +1,70 @@
+{
+  "gameId": "photo1",
+  "title": "Get to Know Each Other",
+  "revealSeconds": 10,
+  "pairs": [
+    {
+      "pairId": "p1",
+      "label": "duplo",
+      "photo": "photos/duplo.jpg",
+      "stations": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "pairId": "p2",
+      "label": "ganga",
+      "photo": "photos/ganga.jpg",
+      "stations": [
+        "S03",
+        "S04"
+      ]
+    },
+    {
+      "pairId": "p3",
+      "label": "ma\u0161kare",
+      "photo": "photos/ma\u0161kare.jpg",
+      "stations": [
+        "S05",
+        "S06"
+      ]
+    },
+    {
+      "pairId": "p4",
+      "label": "nona",
+      "photo": "photos/nona.jpg",
+      "stations": [
+        "S07",
+        "S08"
+      ]
+    },
+    {
+      "pairId": "p5",
+      "label": "rogla",
+      "photo": "photos/rogla.jpg",
+      "stations": [
+        "S09",
+        "S10"
+      ]
+    },
+    {
+      "pairId": "p6",
+      "label": "sup",
+      "photo": "photos/sup.jpg",
+      "stations": [
+        "S11",
+        "S12"
+      ]
+    },
+    {
+      "pairId": "p7",
+      "label": "\u017eoge",
+      "photo": "photos/\u017eoge.jpg",
+      "stations": [
+        "S13",
+        "S14"
+      ]
+    }
+  ]
+}
