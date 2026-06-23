@@ -8,8 +8,8 @@
       "label": "duplo",
       "photo": "photos/duplo.jpg",
       "stations": [
-        "S01",
-        "S02"
+        "KQFTDNXC",
+        "3F6VH5DE"
       ]
     },
     {
@@ -17,8 +17,8 @@
       "label": "ganga",
       "photo": "photos/ganga.jpg",
       "stations": [
-        "S03",
-        "S04"
+        "HERPZDWA",
+        "VPK3T3A2"
       ]
     },
     {
@@ -26,8 +26,8 @@
       "label": "ma\u0161kare",
       "photo": "photos/ma\u0161kare.jpg",
       "stations": [
-        "S05",
-        "S06"
+        "64Y8PYMN",
+        "77WCM8TY"
       ]
     },
     {
@@ -35,8 +35,8 @@
       "label": "nona",
       "photo": "photos/nona.jpg",
       "stations": [
-        "S07",
-        "S08"
+        "NB3TYCSJ",
+        "493CDVJZ"
       ]
     },
     {
@@ -44,8 +44,8 @@
       "label": "rogla",
       "photo": "photos/rogla.jpg",
       "stations": [
-        "S09",
-        "S10"
+        "NBDBGPEE",
+        "DRAKUVJ5"
       ]
     },
     {
@@ -53,8 +53,8 @@
       "label": "sup",
       "photo": "photos/sup.jpg",
       "stations": [
-        "S11",
-        "S12"
+        "54GMKYX7",
+        "VEVZ4PJK"
       ]
     },
     {
@@ -62,8 +62,8 @@
       "label": "\u017eoge",
       "photo": "photos/\u017eoge.jpg",
       "stations": [
-        "S13",
-        "S14"
+        "9AF8JKKE",
+        "UDS77CRT"
       ]
     }
   ]
