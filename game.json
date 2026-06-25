@@ -5,8 +5,8 @@
   "pairs": [
     {
       "pairId": "p1",
-      "label": "duplo",
-      "photo": "photos/duplo.jpg",
+      "label": "DUPLO",
+      "photo": "photos/DUPLO.jpg",
       "stations": [
         "KQFTDNXC",
         "3F6VH5DE"
@@ -14,8 +14,8 @@
     },
     {
       "pairId": "p2",
-      "label": "ganga",
-      "photo": "photos/ganga.jpg",
+      "label": "GANGA",
+      "photo": "photos/GANGA.jpg",
       "stations": [
         "HERPZDWA",
         "VPK3T3A2"
@@ -23,8 +23,8 @@
     },
     {
       "pairId": "p3",
-      "label": "ma\u0161kare",
-      "photo": "photos/ma\u0161kare.jpg",
+      "label": "MASKARE",
+      "photo": "photos/MASKARE.jpg",
       "stations": [
         "64Y8PYMN",
         "77WCM8TY"
@@ -32,8 +32,8 @@
     },
     {
       "pairId": "p4",
-      "label": "nona",
-      "photo": "photos/nona.jpg",
+      "label": "NOGICE",
+      "photo": "photos/NOGICE.jpg",
       "stations": [
         "NB3TYCSJ",
         "493CDVJZ"
@@ -41,8 +41,8 @@
     },
     {
       "pairId": "p5",
-      "label": "rogla",
-      "photo": "photos/rogla.jpg",
+      "label": "NONA",
+      "photo": "photos/NONA.jpg",
       "stations": [
         "NBDBGPEE",
         "DRAKUVJ5"
@@ -50,8 +50,8 @@
     },
     {
       "pairId": "p6",
-      "label": "sup",
-      "photo": "photos/sup.jpg",
+      "label": "ROGLA",
+      "photo": "photos/ROGLA.jpg",
       "stations": [
         "54GMKYX7",
         "VEVZ4PJK"
@@ -59,11 +59,38 @@
     },
     {
       "pairId": "p7",
-      "label": "\u017eoge",
-      "photo": "photos/\u017eoge.jpg",
+      "label": "SUP",
+      "photo": "photos/SUP.jpg",
       "stations": [
         "9AF8JKKE",
         "UDS77CRT"
+      ]
+    },
+    {
+      "pairId": "p8",
+      "label": "VOZICEK",
+      "photo": "photos/VOZICEK.jpg",
+      "stations": [
+        "GGWB6F5E",
+        "GHV2YM4Z"
+      ]
+    },
+    {
+      "pairId": "p9",
+      "label": "Z LEJLO",
+      "photo": "photos/Z LEJLO.jpg",
+      "stations": [
+        "FRYWVAAV",
+        "EX2E2DSB"
+      ]
+    },
+    {
+      "pairId": "p10",
+      "label": "ZOGE",
+      "photo": "photos/ZOGE.jpg",
+      "stations": [
+        "CCZUM4YQ",
+        "D2H3GXGJ"
       ]
     }
   ]
